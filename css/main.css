@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+html, body, .container-fluid {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.row, .column {
+    margin: auto;
+}
+.head-container {
+    background-image: url("../assets/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.head-container, .card-container, .footer {
+    padding: 80px 50px;
+}
+.head-container {
+    padding-left: 100px !important;
+}
+.head-container h1,
+.head-container h2 {
+    color: #eeeeee;
+}
+.head-container h1,
+.head-container h2,
+.head-container p,
+.head-container span {
+    margin: 0 20px;
+}
+.head-container p {
+    color: #686b68
+}
+.head-container h2 {
+    font-size: 24px;
+}
+.head-container .fa-brands {
+    margin-right: 20px;
+    color: #5a5d5a
+}
+.head-container .fa-brands:hover {
+    color: #a4a9a4
+}
+.head-container #head-lore {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #a6a6a6;
+}
+.content-container {
+    background-color: #000000;
+}
+.card-container {
+    padding-top: 25px !important;
+}
+.card-container .card {
+    border: 0;
+    max-width: 400px;
+    text-align: center;
+}
+.card-container .card hr {
+    color: white;
+}
+.card-container .card button {
+    border-radius: 3px;
+    background: linear-gradient(120deg, #4c41a0, #4c41a0);
+    border: 0;
+    border-bottom: 3px solid #1d2a41;
+}
+.card-container .card button:hover {
+    border-radius: 3px;
+    background: linear-gradient(120deg, #43398d, #3e3788);
+    border: 0;
+    border-bottom: 3px solid #1d2a41;
+}
+.card-container .card h5 {
+    color: #ffffff;
+}
+.card-container .card p {
+    color: #adadad;
+}
+.card .text-muted {
+    color: #949494 !important;
+}
+.card-container .card .card-body {
+    background-color: #1a1a1a;
+}
+.section-heading {
+    text-align: center;
+    color: #ffffff;
+}
+.section-heading h1 {
+    margin-top: 40px;
+    font-size: 34px;
+}
+.footer h1, .footer h2 {
+    font-size: 16px;
+}
+.footer h1 {
+    color: #ffffff;
+}
+.footer h2, .footer a {
+    color: #8f8f8f;
+}
+.footer h2 span {
+    background-color: #151515;
+    padding: 0 4px;
+    color: #afafaf !important;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a h2:hover {
+    color: #bbbbbb;
+}
+.footer #discord:hover, #discord-icon i:hover {
+    color: #b9d4ef !important;
+}
+.footer #instagram:hover, #instagram-icon i:hover {
+    color: #f1b0cc !important;
+}
+.card-container, .footer, .head-content {
+    max-width: 1200px;
+}
+.category-modal p {
+    color: #8c8b8b;
+}
+.category-modal .modal-header,
+.category-modal .modal-footer {
+    text-align: center;
+    border: 0;
+}
+.category-modal .modal-header button {
+    background-color: unset;
+    border-radius: 50%;
+    border-color: #8c8b8b;
+    color: #f2f2f2;
+    border-width: 1px;
+}
+.category-modal .modal-content {
+    background-color: unset;
+    color: #f2f2f2;
+    border: 0;
+}
+.category-modal .modal-content h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.category-modal .modal-content h2 {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+.category-modal .modal-content img {
+    border-radius: 15px;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
